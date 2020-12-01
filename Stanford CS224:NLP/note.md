@@ -18,7 +18,7 @@ Example：students open their __
 
 ## perplexity和cross-entropy的关系
 
-### perplexity（越小越好）
+##### perplexity（越小越好）
 
 标准的Language Models的metrix是perplexity
 $$
@@ -28,7 +28,7 @@ $$
 
 <font color=red>对于训练好的模型，测试集中的句子都是正常句子，那么训练好的模型在才是的上的困惑度越小越好</font>
 
-### cross-entropy
+##### cross-entropy
 
 在generated LM中在t位置预测next word即 $x^{(t+1)}$时，利用Cross-entropy来计算
 
